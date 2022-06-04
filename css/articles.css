@@ -1,0 +1,206 @@
+/*.article-container{
+	display: flex;
+	background: green;
+}*/
+
+:root {
+    --primary-colour: #178d34;
+    --secondary-colour: #127029;
+    --dark-colour: #093514;
+    --light-colour: #21c74a;
+    --red-colour: rgba(255, 0, 0, 0.87);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif, serif;
+    background: #f5f5f5;
+}
+
+.wrapper-main {
+    display: grid;
+    grid-template-columns: auto 300px;
+    /*grid-template-rows: 600px 500px 400px 400px;*/
+    column-gap: 2rem;
+    padding: 2rem;
+}
+
+.other-articles>div:nth-of-type(1) p {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    word-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: var(--red-colour);
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.other-articles>div:nth-of-type(2) {
+    width: 100%;
+}
+
+.other-articles>div:nth-of-type(2) img {
+    width: 100%;
+    display: block;
+}
+
+.other-articles>div:nth-of-type(3) p {
+    margin: 1rem 0;
+    color: red !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    /*text-align: center;*/
+}
+
+
+
+.other-articles .pre-art {
+    border-bottom: 1px solid #222;
+    margin-bottom: 1rem !important;
+}
+
+
+.other-articles .pre-art::before {
+    margin: 0rem 0;
+}
+
+.other-articles .pre-art {
+    margin: 0.1rem 1rem;
+}
+
+.aside-art-wrapper>div:nth-of-type(2) {
+   
+    margin: 1rem;
+}
+
+.article-container {
+    /*max-width: 40rem;*/
+    /*display: block;*/
+    word-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /*margin: 0 1rem;*/
+    border-radius: 3rem;
+}
+
+.prof-art-details {
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+    color: #888;
+    justify-content: startt;
+    margin: 1.5rem 1rem;
+
+}
+
+.prof-art-details h4 {
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: #777;
+}
+
+ion-icon {
+    align-items: center;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+    transition: color 0.6s, -webkit-transform 0.6s;
+    transition: transform 0.6s, color 0.6s, rotate 0.6s;
+    transition: transform 0.6s, color 0.6s, -webkit-transform 0.6s, rotate 0.6s;
+}
+
+.iony {
+    margin: auto 0;
+}
+
+.pnrof-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 4rem;
+
+}
+
+.art-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.art-img img {
+    width: 100%;
+    display: block;
+
+    height: auto;
+}
+
+.main-art,
+.pre-art {
+    margin: 1.5rem 1rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+
+.pre-art::before {
+    display: inline-block;
+    content: "";
+    border-bottom: 0.5rem solid #127029;
+
+    /*justjify-self: center;*/
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    /*align-sself: center;*/
+    /*text-align: cenbter;*/
+}
+
+.pre-art::after {
+    display: inline-block;
+    content: "";
+    border-bottom: 1rem solid #127029;
+
+    /*justjify-self: center;*/
+    font-size: 1.1rem;
+    width: 100%;
+    /*align-sself: center;*/
+    /*text-align: cenbter;*/
+}
+
+
+.iony ion-icon:active,
+.iony ion-icon:hover {
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    color: var(--red-colour);
+    -webkit-transition: color 0.6s, -webkit-transform 0.6s;
+    transition: color 0.6s, -webkit-transform 0.6s;
+    transition: transform 0.6s, color 0.6s, rotate 0.6s;
+    transition: transform 0.6s, color 0.6s, -webkit-transform 0.6s, rotate 0.6s;
+}
+
+.main-art:first-line {
+    font-size: 1rem;
+    /*word-wrap: wrap;*/
+    font-weight: 800;
+}
+
+
+/*.pre-art:first-line {
+    font-weight: 800;
+    font-size: 51rem !important;
+    background: red !important;
+}*/

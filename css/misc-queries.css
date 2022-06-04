@@ -1,0 +1,479 @@
+/*1201px to 1270px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1870px) {
+
+    html,
+    body {
+        background: #fff;
+    }
+
+    .misc-container {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        color: #fff;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*     grid-auto-rows: minmax(200px, auto); */
+    }
+
+    .container.grid-footer.grid-3 {
+        display: block;
+    }
+
+    .footer-ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-self: center;
+        width: 100%;
+
+
+    }
+}
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    html,
+    body {
+        background: #ffffff;
+    }
+
+    .misc-container {
+        display: grid;
+        background: #eee;
+        gap: 1rem;
+        color: #333;
+        grid-template-columns: 1fr 1fr 1fr;
+        /*     grid-auto-rows: minmax(200px, auto); */
+    }
+
+    .footer-ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-self: center;
+        width: 100%;
+
+
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+
+    html,
+    body {
+        background: fuchsia;
+    }
+
+    .misc-container {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        color: #333;
+        grid-template-columns: 1fr 1fr;
+        /*     grid-auto-rows: minmax(200px, auto); */
+    }
+
+    .container.grid-footer.grid-3 {
+        display: block;
+    }
+
+    .footer-ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-self: center;
+        width: 100%;
+
+
+    }
+
+    .about-us:nth-child(1) {
+        margin-top: 14rem;
+    }
+
+    .about-us:nth-child(2) {
+        margin-top: 14rem;
+    }
+
+    .about-us:nth-child(3) {
+        margin-top: 0;
+    }
+
+}
+
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    html,
+    body {
+        background: yellow;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+
+    }
+
+    .misc-container {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        color: #333;
+        grid-template-columns: 1fr 1fr;
+        /*     grid-auto-rows: minmax(200px, auto); */
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {
+        background: green;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        /* max-widtlh: 450px; */
+
+    }
+
+    .about-us:nth-child(1) {
+        margin-top: 14rem;
+    }
+
+    .about-us:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .about-us:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .misc-container {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        color: #333;
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: minmax(200px, auto);
+    }
+}
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    html,
+    body {
+        background: pink;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        /* max-widtlh: 450px; */
+
+    }
+
+    .misc-container {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        color: #333;
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: minmax(200px, auto);
+    }
+}
+
+/*.nav-grid{
+    display: flex;
+    color:;
+    background:;
+    flex-wrap: wruap;
+    flex-direction: row !important;
+
+}.nav-grid{
+    display: flex;
+    color:;
+    background:;
+    flex-wrap: wruap;
+    flex-direction: row; !important;
+
+}
+.nav-grid:nth-child(2){
+    display: none;
+    color:;
+    background: ;
+    flex-wrap: wruap;
+ position:fixed;
+ top:12px;
+ left:44px;
+
+}
+.menu-li{
+    color: greenyellow;
+    font-size: 1rem;
+    margin: 1rem;
+    list-style: none;
+    background: blueviolet;
+    justify-content: start;
+    align-items: start;
+        flex-direction: row !important;
+
+}
+.menu-li:hover{
+     display:flex;
+   align-items:center;
+   justify-content:center;
+   list-style: none;
+   background:rgba(255, 3, 3, 0.97);
+   border-radius:0.5rem;
+   padding:0.5rem;
+   font-size:1rem;
+   margin:1rem;
+       flex-direction: row !important;
+
+/*     align-items:flex-end; */
+/*    justify-content:flex-end;} */
+
+
+
+
+/*.menu{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+
+   background:rgba(255, 3, 3, 0.97);
+   border-radius:0.5rem;
+   padding:0.5rem;
+   font-size:1rem;
+   margin:1rem;
+   color: #fff;
+       flex-direction: row !important;
+
+  }
+
+.menu:hover + .menu-li{
+     display:flex;
+   align-items:center;
+   justify-content:center;
+
+   background:rgba(255, 3, 3, 0.97);
+   border-radius:0.5rem;
+   padding:0.5rem;
+   font-size:1rem;
+   margain: 1rem;
+   list-style: none;
+       flex-direction: row !important;
+   }*/
+/*.nenu{
+    display: flex;
+  }
+  .nenu:hover{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+   justify-content:flex-start;
+
+   background:rgba(255, 3, 3, 0.97);
+   border-radius:0.5rem;
+   paaadding:0.5rem;
+   foant-size:1rem;
+   maaargin: 0.5rem;
+   list-style: none;
+  }
+  .oga:hover{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+   justify-content:flex-start;
+
+   background:rgba(255, 3, 3, 0.97);
+   border-radius:0.5rem;
+   paaadding:0.5rem;
+   foant-size:1rem;
+   maaargin: 0.5rem;
+   list-style: none;
+  }
+
+  .oga:hover ~ .nenu{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+   justify-content:flex-start;
+
+
+   background:rgba(255, 3, 3, 0.97);
+   border-radius:0.5rem;
+   paddssing:0.5rem;
+   fownt-size:1rem;
+   margin: 0.5rem;
+   list-style: none;
+  }
+*/
+/*header{
+   height: 80px;
+   position:kfixed;
+   background:darkred;
+  }
+.nav-grid{
+ display:flex;
+ flex-direction:row;
+}
+  .menu{
+   display:flex;
+  flex-direction:row;
+  }
+.nav-grid:(li){
+display: none;
+color:;
+background: gold;
+flex-wrap: wruap;
+ positiona:fixed;
+ tonp:12px;
+ lemft:44px;
+
+}
+}*/
+/*.menu:hover ~ .menu-li{*/
+@media all and (max-width : 600px) {
+
+    #logo {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        float: none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s;
+
+    }
+
+    nav {
+        margin: 0;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+
+    /* Hide the navigation menu by default */
+    /* Also hide the  */
+    .toggle + a,
+    .menu {
+        display: none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Stylinf the toggle lable */
+    .toggle {
+        display: block;
+        background-color: #254441;
+        padding: 14px 20px;
+        color: #FFF;
+        font-size: 17px;
+        text-decoration: none;
+        border: none;
+        transition: border 0.5s, background-color 0.5, width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    .toggle:hover {
+        background-color: #000000;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Display Dropdown when clicked on Parent Lable */
+    [id^=drop]:checked + ul {
+        display: block;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Change menu item's width to 100% */
+    nav ul li {
+        display: block;
+        width: 100%;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul ul .toggle,
+    nav ul ul a {
+        padding: 0 40px;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul ul ul a {
+        padding: 0 80px;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav a:hover,
+    nav ul ul ul a {
+        background-color: #000000;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul li ul li .toggle,
+    nav ul ul a,
+    nav ul ul ul a {
+        padding: 14px 20px;
+        color: #FFF;
+        font-size: 17px;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+
+    nav ul li ul li .toggle,
+    nav ul ul a {
+        background-color: #212121;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Hide Dropdowns by Default */
+    nav ul ul {
+        float: none;
+        position: static;
+        color: #ffffff;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+        /* has to be the same number as the "line-height" of "nav a" */
+    }
+
+    /* Hide menus on hover */
+    nav ul ul li:hover > ul,
+    nav ul li:hover > ul {
+        display: none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Fisrt Tier Dropdown */
+    nav ul ul li {
+        display: block;
+        width: 100%;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul ul ul li {
+        position: static;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+        /* has to be the same number as the "width" of "nav ul ul li" */
+
+    }
+
+}

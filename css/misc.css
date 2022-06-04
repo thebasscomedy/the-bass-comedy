@@ -1,0 +1,729 @@
+:root {
+    --primary-colour: #178d34;
+    --secondary-colour: #127029;
+    --dark-colour: #093514;
+    --light-colour: #21c74a;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lato', 'Arial', sans-serif;
+
+
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    /*    font-weight: 00;*/
+
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://www.vappingo.com/word-blog/wp-content/uploads/2011/03/Concrete-nouns-snot.jpg);
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.35), black), url(http://damnthatsweird.com/wp-content/uploads/2012/05/kuCx6.jpg);
+    background-size: auto;
+    background-position: center;
+    height: 20vh;
+    background-attachment: fixed;
+    z-index: 200;
+}
+
+/*
+/* Main navi 
+.main-nav {
+    float: right;
+    list-style: none;
+        flex-direction: row !important;
+
+}
+
+.main-nav li {
+    display: flex;
+    font-size: 2rem;
+        flex-direction: row !important;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padxding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+        flex-direction: row !important;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+        flex-direction: row !important;
+
+}*/
+
+
+/* Mobile navi */
+.mobikle-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.mobnilkenavicon {
+    font-size: 200%;
+    color: #fff;
+    display: block
+}
+
+/* .misc {
+    /* displamy: grid;
+    babckground: red; 
+
+} */
+
+.misc-container {
+    display: grid;
+    background: brown;
+    gap: 1rem;
+    color: #333;
+    /*    grid-template-rows: 2fr 2fr 2fr 2fr 1fr;*/
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.about-us {
+    background: #fff;
+    padding: 1rem;
+    color: #757575;
+        border-bottom: 0.1rem solid /*rgba(255, 0, 0, 0.87)*/ #333;
+opacity: 0.5;
+        transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
+
+    /*opacity: 0.5;}*/}
+    .about-us:nth-child(1){
+        margin-top: 8rem;
+    }
+    .about-us:nth-child(2){
+        margin-top: 8rem;
+    }.about-us:nth-child(3){
+        margin-top: 8rem;
+    }
+
+    .about-us:hover{
+        opacity: 1;
+
+    border: none;
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+
+        transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
+        transform: scale(1.02);
+
+
+    }
+.content:hover{
+    /* bordemr: 0.1rem solid #f43245; */
+margin: 0.1rem;
+
+        transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
+
+
+}
+.about-us-head:hover{
+        /* bmorder: 0.1rem solid #f43245; */
+            margin: 0.1rem;
+
+            transition: padding 0.5s, border 0.5s, margin 0.5s;
+}
+.content{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #020a04;
+}
+
+.about-us,
+.content,
+.about-us-head,
+.content:hover,
+.about-us-head:hover,
+.about-us:hover
+{
+    transition: padding 0.5s, border 0.5s, margin 0.5s, transform 0.5s;
+}
+
+.flex {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.about-us-head {
+    border-bottom: 1px solid  #127029;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 100;
+    color:#333
+}
+
+.space {
+    color: #757575   ;
+     background: #127029;
+    width: 50%;
+    flex-grow: ;
+}
+
+
+.showcase-form .form-control {
+    margin: 1rem 0;
+     transition: background 0.5s
+}
+
+.showcase-form input[type='text'],
+.showcase-form input[type='email'] {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    padding: 3px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.showcase-form input:focus {
+    outline: none;
+    background-color: rgba(60, 36, 163, 0.06);
+    transition: background 0.5s
+}
+
+.showcase-form {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    padding: 3px;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.5s
+}
+
+.news-letter-check {
+    background: rgba(255, 0, 0, 0.87);
+    border-radius: 0.5rem;
+    color: aliceblue;
+}
+
+.showcase-form:last-child:hover:not(.text-area-placeholder) {
+    background: rgba(255, 0, 0, 0.01);
+    border-radius: 0.5rem;
+    transition: background 0.5s
+}
+
+.drop-us-a-line-hover:hover {
+    background: #127029;
+    border-radius: 0.5rem;
+    color: #fff;
+    transition: background 0.5s
+}
+
+/*
+.text-area-placeholder:focus{
+        background: #fff;
+
+    color: #333
+
+}
+
+*/
+
+
+
+
+/*SEND BUTTON*/
+.send-btn {
+    background: rgba(255, 0, 0, 0.87);
+
+    border-radius: 0.9rem;
+    border: 1px solid rgba(255, 3, 3, 0.97);
+    padding: 0.9rem 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    transition: background 0.5s, color 0.5s
+}
+
+
+.send-btn:hover {
+    background: linear-gradient(to bottom left, #e0960e, red);
+    transition: background 0.5s, color 0.5s;
+}
+
+/*FOOTER*/
+
+
+.website-author {
+    padding: 1.2rem;
+    margin: 1rem;
+    text-align: center;
+    width: 100%
+}
+
+
+.author-site-span {
+    font-size: 1.4rem;
+    overflow: hidden;
+    word-wrap: break-word;
+
+}
+
+.author-paragraph {
+    font-size: 1.2rem;
+    text-align: center
+}
+
+.grid-footer {
+
+    display: block;
+    gap: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+    background:#093514;
+;
+}
+
+.grid-3 .c {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    color: #444;
+
+}
+
+
+.remove-bullet-points {
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 130% !important;
+}
+
+.remove-bullet-points li {
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+}
+
+
+
+
+.social {
+    text-align: center;
+    padding: 0.5rem 0;
+
+}
+
+.odo-h1:hover {
+    font-size: 2.1rem !important
+}
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(to left bottom, #726708, #496205);
+    /*     background: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);*/
+
+
+}
+
+footer .social a {
+    margin: 0 10px;
+    color: #f4f4f4;
+    -webkit-animation: slideInFromTop 2s ease-in;
+    animation: slideInFromTop 2s ease-in;
+}
+
+footer nav ul li a {
+    color: #CCC;
+}
+
+footer nav ul li a:hover {
+    border-bottom: 1px solid yellow !important;
+    color: #ccc;
+    -webkit-transition: border-bottom 1s;
+    transition: border-bottom 1s;
+}
+
+footer .odo .odo-h1 {
+    color: #CCC;
+    -webkit-transition: color 0.5s, font-size 0.4s;
+    transition: color 0.5s, font-size 0.4s;
+    margin-right: auto;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer .odo .odo-h1:hover {
+    color: yellow;
+    font-size: 39px;
+    -webkit-transition: color 0.5s, font-size 0.4s;
+    transition: color 0.5s, font-size 0.4s
+}
+
+
+/*--FOOTER FOR GRID--*/
+
+
+
+
+
+
+
+
+
+
+
+ion-icon {
+    color: #a69400;
+    -webkit-transition: color 1s, -webkit-transform 0.5s;
+    transition: color 1s, -webkit-transform 0.5s;
+    transition: color 1s, transform 0.5s;
+    transition: color 1s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+ion-icon:active,
+ion-icon:hover {
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    color: yellow;
+    -webkit-transition: color 0.6s, -webkit-transform 0.6s;
+    transition: color 0.6s, -webkit-transform 0.6s;
+    transition: transform 0.6s, color 0.6s;
+    transition: transform 0.6s, color 0.6s, -webkit-transform 0.6s;
+}
+
+.social a {
+
+    text-decoration: none
+}
+
+.container {
+    /*    max-width: ;*/
+    margin: 0 0;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.remove-bullet-points {
+    list-style-type: none;
+
+}
+
+.footer-nav {
+    background: ;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem
+}
+
+.website-author {
+    background: rgb(240, 240, 240);
+    grid-column: 2 / 4;
+    text-transform: uppercase;
+    border-radius: 6px;
+    width:100%;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.32);
+    text-align: center ;
+    color#f4f444;
+    padding: 0 ;
+    margin :0 ;
+    display: inline-flex;
+    align-self: center;
+    justify-content: center;
+
+
+
+
+}
+
+.btn-head-nav-mod {
+    padding: 0.6rem;
+    font-size: 1rem;
+    background: var(--dark-colour);
+    color: teal;
+    animation: SlideInFromBottom ease-in;
+
+}
+
+.author-paragraph {
+    color: #333;
+    text-align: center;
+
+}
+
+.author-site-span {
+    column-rule: -o-linear-gradient(red, pink);
+    column-rule: linear-gradient(red, pink);
+    font-size: 20px;
+    color: #ff006c;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    letter-spacing: 1px;
+    transition: color 0.5s, font-size 0.5s, box-shadow 0.5s;
+
+}
+
+.author-site-span:hover {
+    color: #093514;
+    font-size: 20.4px;
+    box-shadow: 0px 3px 10px #c39f9f;
+    font-weight: 600;
+    transition: color 0.5s, font-size 0.5s, box-shadow 0.5s;
+}
+
+.footer-ul{
+    background: #093514;
+    margin: 0;
+    padding: 0
+}
+
+.footer-ul a{
+    background: ;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background:#093514;
+        transition: color 0.5s, border-bottom 0.5s;
+
+}
+.footer-ul a:hover {
+    color: #333;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.87) !important;
+    transition: color 0.5s, border-bottom 0.5s;
+ 
+
+}
+
+
+
+
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+    background: #212121;
+    font-size:22px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    word-wrap:break-word !important;
+    font-family: 'Open Sans', sans-serif;
+    transition
+    }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+}   
+
+h3 {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFF;
+}
+
+h3 a {
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align:center;
+    font-size:60px;
+    line-height: 70px;
+    font-family: 'Bree Serif', 'serif';
+    }
+
+#container {
+    margin: 0 auto;
+    max-width: 890px;
+}
+
+p {
+    text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+    display: none;
+
+}
+
+/* Giving a background-color to the nav container. */
+nav { 
+    margin:0;
+    padding: 0;
+    background: #178d34 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.footer-nav{
+    background: red;
+    position: sticky ;
+}
+
+#logo {
+    display: block;
+    padding: 0 30px;
+    float: left;
+    font-size:20px;
+    line-height: 60px;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+    float: right;
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+    
+/* Positioning the navigation items inline */
+nav ul li {
+    margin: 0px;
+    display:inline-block;
+    float: left;
+    background-color: #127029;
+    }
+
+/* Styling the links */
+nav a {
+    display:block;
+    padding:14px 20px;  
+    color:#FFF;
+    font-size:17px;
+    text-decoration:none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s;
+
+}
+
+
+nav ul li ul li:hover { background: #21c74a !important;
+ transition: background 0.5s }
+
+/* Background color change on Hover */
+nav a:hover { 
+    background-color: #21c74a !important;
+    transition: background 0.5s, background-color 0.5s
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+    display: none;
+    position: absolute; 
+    /* has to be the same number as the "line-height" of "nav a" */
+    top: 60px; 
+    transition: display 0.5s, position 0.5s
+}
+    
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display:inherit;
+    transition: display 3s;
+}
+    
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+    transition: width 0.5s, float 0.5s, display 0.5, position 0.5s;
+}
+
+/* Second, Third and more Tiers 
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+    position: relative;
+    top:-60px;
+    /* has to be the same number as the "width" of "nav ul ul li" */ 
+    left:170px; 
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, top 0.5s, left 0.5s
+
+}
+
+    
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+
+
+/*@media all and (max-width : 330px) {
+
+    nav ul li {
+        display:block;
+        width: 94%;
+    }
+
+}*/
