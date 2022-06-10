@@ -1,0 +1,490 @@
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    * {
+        /*font-size: 1rem !important;*/
+        /* padding: 0 !important;
+ margin: 0 !important;*/
+        flex-wrap: wrap;
+    }
+
+    html,
+    body {
+        background: red;
+        /*padding: 0.5rem;*/
+
+
+    }
+
+    .wrapper-main {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        margin: 0 !important;
+        padding: 0 0.5rem !important;
+        grid-template-columns: auto 250px !important;
+        /*grid-auto-rows: minmax(200px, auto);*/
+        font-size: 1rem !important;
+        height: auto;
+
+
+    }
+
+    .wrapper-main .article-container,
+    .other-articles>div:nth-of-type(1) {
+        margin-top: 7.5rem;
+
+        padding: 0 !important;
+        /*margin: 0;*/
+    }
+
+    .container.grid-footer.grid-3 {
+        display: flex;
+
+
+    }
+
+    .website-author {
+        padding: 1rem;
+        margin: 1rem;
+
+
+    }
+
+    .social ion-icon {
+        color: #fff !important;
+        font-size: 1.5rem;
+
+    }
+
+    .social ion-icon:active,
+    .social ion-icon:hover {
+        color: var(--red-colour) !important;
+    }
+
+
+    .prof-art-details {
+        column-gap: 1.9rem;
+        margin: 1rem !important;
+        row-gap: 1rem;
+    }
+
+    #flexy {
+        display: none;
+        position: fixed;
+    }
+
+    #flexy:hover>#turnee {
+        color: red !important;
+        font-size: 9rem;
+    }
+
+
+
+
+}
+
+
+
+
+/* Small phones to small tablets: from 601px to 767px */
+@media only screen and (max-width: 767px) {
+
+
+    * {
+        /*font-size: 1rem !important;*/
+        /* padding: 0 !important;
+ margin: 0 !important;*/
+        flex-wrap: wrap;
+    }
+
+    html,
+    body {
+        background: navy;
+
+
+    }
+
+    .wrapper-main {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        margin: 0 !important;
+        padding: 0 !important;
+        grid-template-columns: 1fr !important;
+        /*grid-auto-rows: minmax(200px, auto);*/
+        font-size: 1rem !important;
+        height: auto;
+
+
+    }
+
+    .wrapper-main .article-container,
+    .other-articles>div:nth-of-type(1) {
+        margin-top: 5.7rem;
+
+        padding: 0 !important;
+        /*margin: 0;*/
+    }
+
+    .container.grid-footer.grid-3 {
+        display: flex;
+
+
+    }
+
+    .website-author {
+        padding: 1rem;
+        margin: 1rem;
+
+
+    }
+
+    .social ion-icon {
+        color: #fff !important;
+        font-size: 1.5rem;
+
+    }
+
+    .social ion-icon:active,
+    .social ion-icon:hover {
+        color: var(--red-colour) !important;
+    }
+
+
+    .prof-art-details {
+        column-gap: 1.9rem;
+        margin: 1rem !important;
+        row-gap: 1rem;
+    }
+
+    #flexy {
+        display: none;
+        position: fixed;
+    }
+
+    #flexy:hover>#turnee {
+        color: red !important;
+        font-size: 9rem;
+    }
+
+
+
+}
+
+
+
+
+/* Small phones: from 481 to 600px */
+@media only screen and (max-width: 600px) {
+
+    * {
+        /*font-size: 1rem !important;*/
+        /* padding: 0 !important;
+ margin: 0 !important;*/
+        flex-wrap: wrap;
+    }
+
+    html,
+    body {
+        background: green;
+
+
+    }
+
+    .wrapper-main {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        margin: 0 !important;
+        padding: 0 !important;
+        grid-template-columns: 1fr !important;
+        /*grid-auto-rows: minmax(200px, auto);*/
+        font-size: 1rem !important;
+        height: auto;
+
+
+    }
+
+    .wrapper-main .article-container,
+    .other-articles>div:nth-of-type(1) {
+        margin-top: 5.7rem;
+
+        padding: 0 !important;
+        /*margin: 0;*/
+    }
+
+    .container.grid-footer.grid-3 {
+        display: flex;
+
+
+    }
+
+    .website-author {
+        padding: 1rem;
+        margin: 1rem;
+
+
+    }
+
+    .social ion-icon {
+        color: #fff !important;
+        font-size: 1.5rem;
+
+    }
+
+    .social ion-icon:active,
+    .social ion-icon:hover {
+        color: var(--red-colour) !important;
+    }
+
+
+    .prof-art-details {
+        column-gap: 1.9rem;
+        margin: 1rem !important;
+        row-gap: 1rem;
+    }
+
+    #flexy {
+        display: none;
+        position: fixed;
+    }
+
+    #flexy:hover>#turnee {
+        color: red !important;
+        font-size: 9rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    * {
+        /*font-size: 1rem !important;*/
+        /* padding: 0 !important;
+ margin: 0 !important;*/
+        flex-wrap: wrap;
+    }
+
+    html,
+    body {
+        background: pink;
+
+
+    }
+
+    .wrapper-main {
+        display: grid;
+        background: #fff;
+        gap: 1rem;
+        margin: 0 !important;
+        padding: 0 !important;
+        grid-template-columns: 1fr !important;
+        /*grid-auto-rows: minmax(200px, auto);*/
+        font-size: 1rem !important;
+        height: auto;
+
+
+    }
+
+    .wrapper-main .article-container,
+    .other-articles>div:nth-of-type(1) {
+        margin-top: 5.7rem;
+
+        padding: 0 !important;
+        /*margin: 0;*/
+    }
+
+    .container.grid-footer.grid-3 {
+        display: flex;
+
+
+    }
+
+    .website-author {
+        padding: 1rem;
+        margin: 1rem;
+
+
+    }
+
+    .social ion-icon {
+        color: #fff !important;
+        font-size: 1.5rem;
+
+    }
+
+    .social ion-icon:active,
+    .social ion-icon:hover {
+        color: var(--red-colour) !important;
+    }
+
+
+    .prof-art-details {
+        column-gap: 1.9rem;
+        margin: 1rem !important;
+        row-gap: 1rem;
+    }
+
+    #flexy {
+        display: none;
+        position: fixed;
+    }
+
+    #flexy:hover>#turnee {
+        color: red !important;
+        font-size: 9rem;
+    }
+
+}
+
+
+
+@media all and (max-width : 600px) {
+
+    #logo {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        float: none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s;
+    }
+
+    nav {
+        margin: 0;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+        /*padding: 0 !important;
+height: 4vh;*/
+    }
+
+
+    /* Hide the navigation menu by default */
+    /* Also hide the  */
+    .toggle+a,
+    .menu {
+        display: none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Stylinf the toggle lable */
+    .toggle {
+        display: block;
+        background-color: #254441;
+        /*padding: 14px 20px;*/
+        padding: 0 1rem;
+        margin: 0;
+        color: #FFF;
+        font-size: 17px;
+        text-decoration: none;
+        border: none;
+        transition: border 0.5s, background-color 0.5, width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    .toggle:hover {
+        background-color: #000000;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Display Dropdown when clicked on Parent Lable */
+    [id^=drop]:checked+ul {
+        display: block;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Change menu item's width to 100% */
+    nav ul li {
+        display: block;
+        width: 100%;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul ul .toggle,
+    nav ul ul a {
+        padding: 0 40px;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul ul ul a {
+        padding: 0 80px;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav a:hover,
+    nav ul ul ul a {
+        background-color: #000000;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul li ul li .toggle,
+    nav ul ul a,
+    nav ul ul ul a {
+        padding: 14px 20px;
+        color: #FFF;
+        font-size: 17px;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+
+    nav ul li ul li .toggle,
+    nav ul ul a {
+        background-color: #212121;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Hide Dropdowns by Default */
+    nav ul ul {
+        float: none;
+        position: static;
+        color: #ffffff;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+        /* has to be the same number as the "line-height" of "nav a" */
+    }
+
+    /* Hide menus on hover */
+    nav ul ul li:hover>ul,
+    nav ul li:hover>ul {
+        display: none;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    /* Fisrt Tier Dropdown */
+    nav ul ul li {
+        display: block;
+        width: 100%;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+    }
+
+    nav ul ul ul li {
+        position: static;
+        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
+
+        /* has to be the same number as the "width" of "nav ul ul li" */
+
+    }
+
+}

@@ -8,14 +8,15 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="preconnect" href="css/https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/grid.new.css">
+    <!-- <link rel="preconnect" href="css/https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300" rel="stylesheet"> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <header class="header-mod">
+    <header class="header-mod" id="top">
         <!-- <nav>
             <div class="row">
                 <img src="resources/logo-white.png" alt="omni logo" class="logo">
@@ -38,10 +39,11 @@
             <label for="drop" class="toggle">Menu</label>
             <input type="checkbox" id="drop" />
             <ul class="menu">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Work With Us😍</a></li>
-                <li><a href="#">Drop a Review</a></li>
+                <li><a href="misc.html#contact" target="_blank">Contact Us</a></li>
+                <li><a href="misc.html#advertise" target="_blank">Advertise</a></li>
+                <li><a href="articles.html" target="_blank">Blog</a></li>
+                <li><a href="misc.html#w-w-u" target="_blank">Work With Us😍</a></li>
+                <li><a href="misc.html#drop-a-review" target="_blank">Drop a Review</a></li>
             </ul>
         </nav>
         <div class="herotextbox header.mod">
@@ -52,478 +54,465 @@
             <h1 class="comedy-house-space">&nbsp;</h1>
             <h1> run with your butts if your ribs aren't strong enough😲.
             </h1>
-            <button class="p-xs m-xs btn btn-mod tt"><a class="btn-full jsscrolltoplans" href="#">explore clips</a></button>
+            <button class="p-xs m-xs btn btn-mod tt"><a class="btn-full jsscrolltoplans" href="#explore-clips">explore clips</a></button>
             <button class><a class="btn-ghost jsscrolltostart" href="#">or</a></button>
             <button class="p-xs m-l  btn-tr tt"><a class="btn-ghost jsscrolltostart" href="#">run while u still got the chance😋</a></button>
         </div>
     </header>
-    <section class="clips-and-articles p-xl">
-        <div class="art-label flex">
+    <section class="clips-and-articles before p-xl">
+        <div class="art-label-wrapper" id="explore-clips">
             <div>
-                <h1 class="art-label-h1 bs p-xs">clips here</h1>
+                <h1 class="art-label-h1-clips bs">clips here</h1>
             </div>
             <div>
-                <h1 class="art-label-h1 reviews bs p-xs">bass reviews</h1>
+                <h1 class="art-label-h1-reviews bs">bass reviews</h1>
             </div>
         </div>
-        <div class="videos grid ">
-            <div class="video-box before-dash">
-                <video class="card video-utility" controls>
+        </div>
+        <div class="videos grid">
+            <div class="videos-wrapper">
+                <div class="video-box before-dash">
+                    <video class="card video-utility" controls>
+                        <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-box">
+                    <video class="card video-utility" controls>
+                        <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-box">
+                    <video class="card video-utility" controls>
+                        <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-box">
+                    <video class="card video-utility" controls>
+                        <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-box">
+                    <video class="card video-utility" controls>
+                        <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-box after" <video class="card video-utility" controls>
                     <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
-                </video>
+                    </video>
+                </div>
             </div>
-            <div class="other-articles card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/india.webp" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>why is india such a<br class="art-header-break">strange country?
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    12th january 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.bbcnews.com.</a></em>
-                            </p>
-                        </div>
+            <div class="articles-wrapper grid-fit">
+                <div class="art-label-wrapper-mobile">
+                    <div>
+                        <h1 class="art-label-h1-reviews-mobile bs">check out our bass reviews</h1>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
-                </div>
-            </div>
-            <div class="video-box">
-                <video class="card video-utility" controls>
-                    <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="other-articles card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/africa.png" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>unpacking africa's <br class="art-header-break">many myths.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    19th march 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.africatoday.com.</a></em>
-                            </p>
+                <div class="other-articles card grid art-grid">
+                    <div class="art-img-divm "> <img src="img-articles/india.webp" alt="Jack Dorsey"></div>
+                    <div>
+                        <div class="flex flex-mod-art lh">
+                            <div>
+                                <p class="quest stubborn-icon-header">
+                                    why is india such a strange country?
+                                </p>
+                            </div>
+                            <div>
+                                <p class="date mja">
+                                    <ion-icon name="calendar-sharp"></ion-icon>
+                                    <em>
+                                        12th january 2022.</em>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="source mna ">
+                                    <ion-icon name="earth-sharp"></ion-icon>
+                                    <em><a class="art-src" href="www.cnnamerica.com">www.bbcnews.com.</a></em>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
-            </div>
-            <div class="video-box">
-                <video class="card video-utility" controls>
-                    <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="other-articles card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/cyber.jpg" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>should we really <br class="art-header-break">depend on cyber security firms?
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    1st august 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.securitynews.com.</a></em>
-                            </p>
-                        </div>
+                    <div class="art-text">
+                        <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse.<button class="read-more-button"><a href="articles.html" target="_blank">Read more</a></button></p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
-            </div>
-            <div class="video-box">
-                <video class="card video-utility" controls>
-                    <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="other-articles card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/ai-artificial-intelligence.webp" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>learn artificial<br class="art-header-break">intelligience today.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    22nd november 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.cyber.com.</a></em>
-                            </p>
+                <div class="other-articles card grid art-grid">
+                    <div class="art-img-divm "> <img src="img-articles/africa.png" alt="Jack Dorsey"></div>
+                    <div>
+                        <div class="flex flex-mod-art lh">
+                            <div>
+                                <p class="quest stubborn-icon-header">
+                                    unpacking africa's many myths.
+                                </p>
+                            </div>
+                            <div>
+                                <p class="date mja">
+                                    <ion-icon name="calendar-sharp"></ion-icon>
+                                    <em>
+                                        19th march 2022.</em>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="source mna ">
+                                    <ion-icon name="earth-sharp"></ion-icon>
+                                    <em><a class="art-src" href="www.cnnamerica.com">www.africatoday.com.</a></em>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
-            </div>
-            <div class="video-box">
-                <video class="card video-utility" controls>
-                    <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="other-articles card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/editing.jpg" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>editing as opposed<br class="art-header-break">to plagiarising.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    3rd may 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.livingstone.com.</a></em>
-                            </p>
-                        </div>
+                    <div class="art-text">
+                        <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.<button class="read-more-button"><a href="articles.html" target="_blank">Read more</a></button></p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
-            </div>
-            <div class="video-box after">
-                <video class="card video-utility" controls>
-                    <source src="3a8cdae5a4f94499abdf1414e4be8c6e-1.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="other-articles card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/02f15b8de4774530ac6fba2799626e79_18.webp" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>Jack Dorsey might<br class="art-header-break">not be happy.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    22 april 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.cnnamerica.com.</a></em>
-                            </p>
+                <div class="other-articles card grid art-grid">
+                    <div class="art-img-divm "> <img src="img-articles/cyber.jpg" alt="Jack Dorsey"></div>
+                    <div>
+                        <div class="flex flex-mod-art lh">
+                            <div>
+                                <p class="quest stubborn-icon-header">
+                                    should we really depend on cyber security firms?
+                                </p>
+                            </div>
+                            <div>
+                                <p class="date mja">
+                                    <ion-icon name="calendar-sharp"></ion-icon>
+                                    <em>
+                                        1st august 2022.</em>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="source mna ">
+                                    <ion-icon name="earth-sharp"></ion-icon>
+                                    <em><a class="art-src" href="www.cnnamerica.com">www.securitynews.com.</a></em>
+                                </p>
+                            </div>
                         </div>
                     </div>
+                    <div class="art-text">
+                        <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.<button class="read-more-button"><a href="articles.html" target="_blank">Read more</a></button></p>
+                    </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
+                <div class="other-articles card grid art-grid">
+                    <div class="art-img-divm "> <img src="img-articles/ai-artificial-intelligence.webp" alt="Jack Dorsey"></div>
+                    <div>
+                        <div class="flex flex-mod-art lh">
+                            <div>
+                                <p class="quest stubborn-icon-header">
+                                    learn artificial intelligience today.
+                                </p>
+                            </div>
+                            <div>
+                                <p class="date mja">
+                                    <ion-icon name="calendar-sharp"></ion-icon>
+                                    <em>
+                                        22nd november 2022.</em>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="source mna ">
+                                    <ion-icon name="earth-sharp"></ion-icon>
+                                    <em><a class="art-src" href="www.cnnamerica.com">www.cyber.com.</a></em>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="art-text">
+                        <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.<button class="read-more-button"><a href="articles.html" target="_blank">Read more</a></button></p>
+                    </div>
+                </div>
+                <div class="other-articles card grid art-grid">
+                    <div class="art-img-divm "> <img src="img-articles/editing.jpg" alt="Jack Dorsey"></div>
+                    <div>
+                        <div class="flex flex-mod-art lh">
+                            <div>
+                                <p class="quest stubborn-icon-header">
+                                    editing as opposed to plagiarising.
+                                </p>
+                            </div>
+                            <div>
+                                <p class="date mja">
+                                    <ion-icon name="calendar-sharp"></ion-icon>
+                                    <em>
+                                        3rd may 2022.</em>
+                                </p>
+                            </div>
+                            <div>
+                                <p class="source mna ">
+                                    <ion-icon name="earth-sharp"></ion-icon>
+                                    <em><a class="art-src" href="www.cnnamerica.com">www.livingstone.com.</a></em>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="art-text">
+                        <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.<button class="read-more-button"><a href="articles.html" target="_blank">Read more</a></button></p>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- <div class="other-articles card grid art-grid">
+    <div class="art-img-divm "> <img src="img-articles/02f15b8de4774530ac6fba2799626e79_18.webp" alt="Jack Dorsey"></div>
+    <div>
+        <div class="flex flex-mod-art lh">
+            <div>
+                <p class="quest stubborn-icon-header">
+                    Jack Dorsey might not be happy.
+                </p>
+            </div>
+            <div>
+                <p class="date mja">
+                    <ion-icon name="calendar-sharp"></ion-icon>
+                    <em>
+                        22 april 2022.</em>
+                </p>
+            </div>
+            <div>
+                <p class="source mna ">
+                    <ion-icon name="earth-sharp"></ion-icon>
+                    <em><a class="art-src" href="www.cnnamerica.com">www.cnnamerica.com.</a></em>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="art-text">
+        <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
+    </div>
+</div>
+</div> -->
     </section>
-    <section class="articles">
-        <div>
-            <div class="other-articles mobile reviews-mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/ai-artificial-intelligence.webp" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>learn artificial<br class="art-header-break">intelligience today.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    12th january 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.airemodel.com.</a></em>
-                            </p>
-                        </div>
+    <!-- <section class="articles">
+    <div>
+        <div class="other-articles mobile reviews-mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/ai-artificial-intelligence.webp" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            learn artificial intelligience today.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                12th january 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.airemodel.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p art-mobile tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate. <button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p art-mobile tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate. <button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
             </div>
         </div>
-        <div>
-            <div class="other-articles mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/cyber.jpg" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>should cyber security<br class="art-header-break">firms be really trusted?
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    22th febuary 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.bbcnews.com.</a></em>
-                            </p>
-                        </div>
+    </div>
+    <div>
+        <div class="other-articles mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/cyber.jpg" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            should cyber security firms be really trusted?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                22th febuary 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.bbcnews.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
             </div>
         </div>
-        <div>
-            <div class="other-articles mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/africa.png" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>did colonization sap<br class="art-header-break">africa of it's strenght?
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    6th april 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.africatoday.com.</a></em>
-                            </p>
-                        </div>
+    </div>
+    <div>
+        <div class="other-articles mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/africa.png" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            did colonization sap africa of it's strenght?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                6th april 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.africatoday.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
             </div>
         </div>
-        <div>
-            <div class="other-articles mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/india.webp" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>why is india such a<br class="art-header-break">strange country?
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    12th january 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.bbcnews.com.</a></em>
-                            </p>
-                        </div>
+    </div>
+    <div>
+        <div class="other-articles mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/india.webp" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            why is india such a strange country?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                12th january 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.bbcnews.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labor voluptate.<button class="read-more-button"><a href="img-articles/ai-artificial-intelligence.webp">Read more</a></button></p>
             </div>
         </div>
-        <div>
-            <div class="other-articles mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/02f15b8de4774530ac6fba2799626e79_18.webp" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>Jack Dorsey admits<br class="art-header-break">regretting selling twitter.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    22 april 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.cnnamerica.com.</a></em>
-                            </p>
-                        </div>
+    </div>
+    <div>
+        <div class="other-articles mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/02f15b8de4774530ac6fba2799626e79_18.webp" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            Jack Dorsey admits regretting selling twitter.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                22 april 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.cnnamerica.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
             </div>
         </div>
-        <div>
-            <div class="other-articles mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/elon.jpg" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>elon musk might<br class="art-header-break">be burning out.
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    2nd january 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.elonmusk.com.</a></em>
-                            </p>
-                        </div>
+    </div>
+    <div>
+        <div class="other-articles mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/elon.jpg" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            elon musk might be burning out.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                2nd january 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.elonmusk.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
             </div>
         </div>
-        <div>
-            <div class="other-articles mobile card grid art-grid">
-                <div class="art-img-divm "> <img src="img-articles/editing.jpg" alt="Jack Dorsey"></div>
-                <div>
-                    <div class="flex flex-mod-art lh">
-                        <div>
-                            <p class="tt pxj-xs flex flex-md-icon art-header">
-                                <bold>
-                                    <ion-icon name="reader-sharp"></ion-icon>what can plagiarizm do to<br class="art-header-break">your writing career?
-                                </bold>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="date flex flex-mod-icon mja">
-                                <ion-icon name="calendar-sharp"></ion-icon>
-                                <em>
-                                    1st april 2022.</em>
-                            </p>
-                        </div>
-                        <div>
-                            <p class="source flex flex-mod-icon mna ">
-                                <ion-icon name="earth-sharp"></ion-icon>
-                                <em><a class="art-src" href="www.cnnamerica.com">www.cnnamerica.com.</a></em>
-                            </p>
-                        </div>
+    </div>
+    <div>
+        <div class="other-articles mobile card grid art-grid">
+            <div class="art-img-divm "> <img src="img-articles/editing.jpg" alt="Jack Dorsey"></div>
+            <div>
+                <div class="flex flex-mod-art lh">
+                    <div>
+                        <p class="quest stubborn-icon-header">
+                            what can plagiarizm do to your writing career?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="date mja">
+                            <ion-icon name="calendar-sharp"></ion-icon>
+                            <em>
+                                1st april 2022.</em>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="source mna ">
+                            <ion-icon name="earth-sharp"></ion-icon>
+                            <em><a class="art-src" href="www.cnnamerica.com">www.cnnamerica.com.</a></em>
+                        </p>
                     </div>
                 </div>
-                <div class="art-text">
-                    <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
-                </div>
+            </div>
+            <div class="art-text">
+                <p class="art-text-p tdn ls wb lhart ws">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium quisquam eos eligendi, reiciendis ab nulla id ratione molestias laudantium ae c quod iusto nesciunt amet eum labore.voluptateLorem ipsum dolor sit amet, consectetur adipisicing elit. Esse laboriosam neque maxime placeat beatae excepturi cum praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labor.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section> -->
     <!--FOOTER-->
     <footer class="footer">
         <div class="container grid-footer grid-3">
             <div class="odo">
-                <h1 class="odo-h1 odo-mobile">
-                    the bass comedy. </h1>
+                <a href="index.html">
+                    <h1 class="odo-h1 odo-mobile">the bass comedy.
+                    </h1>
+                </a>
                 <p class="c">&copy; march 2022.
                 </p>
             </div>
             <nav class="footer-nav">
                 <ul class="remove-bullet-points">
-                    <li class="tdn"><a class="tdn" href="#nav">Back to Top.</a></li>
-                    <li class="tdn"><a class="tdn" href="#nav">About us.</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Contact Us.</a></li>
-                    <li class="tdn"><a class="tdn" href="#">Work With Us😍!.</a></li>
-                    <li class="tdn"><a class="tdn" href="#">Ads Management.</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Drop a Review.</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Version 1.0.2 (Alpha Mate (beta)).</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">View Version Log +</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Changes.</a></li>
+                    <li class="tdn"><a class="tdn" href="#top">Back to Top.</a></li>
+                    <li class="tdn"><a class="tdn" href="misc.html#about" target="_blank">About us.</a></li>
+                    <li class="tdn"><a class="tdn" href="misc.html#contact" target="_blank">Contact Us.</a></li>
+                    <li class="tdn"><a class="tdn" href="misc.html#contact">Work With Us😍!.</a></li>
+                    <li class="tdn"><a class="tdn" href="misc.html#advertise" target="_blank">Ads Management.</a></li>
+                    <li class="tdn"><a class="tdn" href="misc.html#drop-a-review" target="_blank">Drop a Review.</a></li>
+                    <li class="tdn"><a class="tdn" href="#">Version 1.0.2 (Alpha Mate (beta)).</a></li>
+                    <li class="tdn"><a class="tdn" href="#">View Version Log +</a></li>
+                    <li class="tdn"><a class="tdn" href="#">Changes.</a></li>
                 </ul>
             </nav>
             <div class="social fs-l tdn">
@@ -541,7 +530,7 @@
                 </a>
             </div>
             <div class="website-author lh ws p-s bs">
-                <p class="author-paragraph">this website was built with ❤️, time and the required technologies by <span class="author-site-span">www.webcolors.com.</span>
+                <p class="author-paragraph">this website was built with ❤️, time and the required technologies by <a href="www.webcolors.com"><span class="author-site-span">www.webcolors.com.</span></a>
                 </p>
             </div>
         </div>

@@ -114,46 +114,56 @@ header {
     background: #fff;
     padding: 1rem;
     color: #757575;
-        border-bottom: 0.1rem solid /*rgba(255, 0, 0, 0.87)*/ #333;
-opacity: 0.5;
-        transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
+    border-bottom: 0.1rem solid
+        /*rgba(255, 0, 0, 0.87)*/
+        #333;
+    opacity: 0.5;
+    transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
 
-    /*opacity: 0.5;}*/}
-    .about-us:nth-child(1){
-        margin-top: 8rem;
-    }
-    .about-us:nth-child(2){
-        margin-top: 8rem;
-    }.about-us:nth-child(3){
-        margin-top: 8rem;
-    }
+    /*opacity: 0.5;}*/
+}
 
-    .about-us:hover{
-        opacity: 1;
+.about-us:nth-child(1) {
+    margin-top: 8rem;
+}
+
+.about-us:nth-child(2) {
+    margin-top: 8rem;
+}
+
+.about-us:nth-child(3) {
+    margin-top: 8rem;
+}
+
+.about-us:hover {
+    opacity: 1;
 
     border: none;
-        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
 
-        transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
-        transform: scale(1.02);
+    transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
+    transform: scale(1.02);
 
 
-    }
-.content:hover{
+}
+
+.content:hover {
     /* bordemr: 0.1rem solid #f43245; */
-margin: 0.1rem;
+    margin: 0.1rem;
 
-        transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
+    transition: padding 0.5s, opacity 0.5s, border 0.5s, margin 0.5s;
 
 
 }
-.about-us-head:hover{
-        /* bmorder: 0.1rem solid #f43245; */
-            margin: 0.1rem;
 
-            transition: padding 0.5s, border 0.5s, margin 0.5s;
+.about-us-head:hover {
+    /* bmorder: 0.1rem solid #f43245; */
+    margin: 0.1rem;
+
+    transition: padding 0.5s, border 0.5s, margin 0.5s;
 }
-.content{
+
+.content {
     font-size: 1.7rem;
     line-height: 2.5rem;
     color: #020a04;
@@ -164,8 +174,7 @@ margin: 0.1rem;
 .about-us-head,
 .content:hover,
 .about-us-head:hover,
-.about-us:hover
-{
+.about-us:hover {
     transition: padding 0.5s, border 0.5s, margin 0.5s, transform 0.5s;
 }
 
@@ -176,17 +185,17 @@ margin: 0.1rem;
 }
 
 .about-us-head {
-    border-bottom: 1px solid  #127029;
+    border-bottom: 1px solid #127029;
     font-size: 2rem;
     white-space: nowrap;
     text-transform: uppercase;
     font-weight: 100;
-    color:#333
+    color: #333
 }
 
 .space {
-    color: #757575   ;
-     background: #127029;
+    color: #757575;
+    background: #127029;
     width: 50%;
     flex-grow: ;
 }
@@ -194,7 +203,7 @@ margin: 0.1rem;
 
 .showcase-form .form-control {
     margin: 1rem 0;
-     transition: background 0.5s
+    transition: background 0.5s
 }
 
 .showcase-form input[type='text'],
@@ -307,8 +316,8 @@ margin: 0.1rem;
     height: 100%;
     grid-template-columns: 1fr;
     padding: 2rem 0;
-    background:#093514;
-;
+    background: #093514;
+    ;
 }
 
 .grid-3 .c {
@@ -459,14 +468,14 @@ ion-icon:hover {
     grid-column: 2 / 4;
     text-transform: uppercase;
     border-radius: 6px;
-    width:100%;
+    width: 100%;
     font-weight: 600;
     font-size: 14px;
     box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.32);
-    text-align: center ;
+    text-align: center;
     color#f4f444;
-    padding: 0 ;
-    margin :0 ;
+    padding: 0;
+    margin: 0;
     display: inline-flex;
     align-self: center;
     justify-content: center;
@@ -512,26 +521,27 @@ ion-icon:hover {
     transition: color 0.5s, font-size 0.5s, box-shadow 0.5s;
 }
 
-.footer-ul{
+.footer-ul {
     background: #093514;
     margin: 0;
     padding: 0
 }
 
-.footer-ul a{
+.footer-ul a {
     background: ;
     color: #fff;
     margin: 0;
     padding: 0;
-    background:#093514;
-        transition: color 0.5s, border-bottom 0.5s;
+    background: #093514;
+    transition: color 0.5s, border-bottom 0.5s;
 
 }
+
 .footer-ul a:hover {
     color: #333;
     border-bottom: 1px solid rgba(255, 0, 0, 0.87) !important;
     transition: color 0.5s, border-bottom 0.5s;
- 
+
 
 }
 
@@ -539,27 +549,26 @@ ion-icon:hover {
 
 
 /* CSS Document */
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);*/
 
 body {
     background: #212121;
-    font-size:22px;
+    font-size: 22px;
     line-height: 32px;
     color: #ffffff;
     margin: 0;
     padding: 0;
-    word-wrap:break-word !important;
+    word-wrap: break-word !important;
     font-family: 'Open Sans', sans-serif;
     transition
-    }
+}
 
 h1 {
     font-size: 60px;
     text-align: center;
     color: #FFF;
-}   
+}
 
 h3 {
     font-size: 30px;
@@ -578,11 +587,11 @@ a {
 
 h1 {
     margin-top: 100px;
-    text-align:center;
-    font-size:60px;
+    text-align: center;
+    font-size: 60px;
     line-height: 70px;
     font-family: 'Bree Serif', 'serif';
-    }
+}
 
 #container {
     margin: 0 auto;
@@ -600,8 +609,8 @@ p {
 }
 
 /* Giving a background-color to the nav container. */
-nav { 
-    margin:0;
+nav {
+    margin: 0;
     padding: 0;
     background: #178d34 !important;
     position: fixed;
@@ -609,16 +618,16 @@ nav {
     z-index: 10;
 }
 
-.footer-nav{
+.footer-nav {
     background: red;
-    position: sticky ;
+    position: sticky;
 }
 
 #logo {
     display: block;
     padding: 0 30px;
     float: left;
-    font-size:20px;
+    font-size: 20px;
     line-height: 60px;
 }
 
@@ -626,46 +635,48 @@ nav {
  * we need to add a clear after the container. */
 
 nav:after {
-    content:"";
-    display:table;
-    clear:both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
 nav ul {
     float: right;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     list-style: none;
     position: relative;
-    }
-    
+}
+
 /* Positioning the navigation items inline */
 nav ul li {
     margin: 0px;
-    display:inline-block;
+    display: inline-block;
     float: left;
     background-color: #127029;
-    }
+}
 
 /* Styling the links */
 nav a {
-    display:block;
-    padding:14px 20px;  
-    color:#FFF;
-    font-size:17px;
-    text-decoration:none;
-        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s;
+    display: block;
+    padding: 14px 20px;
+    color: #FFF;
+    font-size: 17px;
+    text-decoration: none;
+    transition: width 0.5s, float 0.5s, display 0.5, position 0.5s;
 
 }
 
 
-nav ul li ul li:hover { background: #21c74a !important;
- transition: background 0.5s }
+nav ul li ul li:hover {
+    background: #21c74a !important;
+    transition: background 0.5s
+}
 
 /* Background color change on Hover */
-nav a:hover { 
+nav a:hover {
     background-color: #21c74a !important;
     transition: background 0.5s, background-color 0.5s
 }
@@ -674,23 +685,23 @@ nav a:hover {
  * and giving it a position of absolute */
 nav ul ul {
     display: none;
-    position: absolute; 
+    position: absolute;
     /* has to be the same number as the "line-height" of "nav a" */
-    top: 60px; 
+    top: 60px;
     transition: display 0.5s, position 0.5s
 }
-    
+
 /* Display Dropdowns on Hover */
-nav ul li:hover > ul {
-    display:inherit;
+nav ul li:hover>ul {
+    display: inherit;
     transition: display 3s;
 }
-    
+
 /* Fisrt Tier Dropdown */
 nav ul ul li {
-    width:170px;
-    float:none;
-    display:list-item;
+    width: 170px;
+    float: none;
+    display: list-item;
     position: relative;
     transition: width 0.5s, float 0.5s, display 0.5, position 0.5s;
 }
@@ -701,17 +712,21 @@ nav ul ul li {
 */
 nav ul ul ul li {
     position: relative;
-    top:-60px;
-    /* has to be the same number as the "width" of "nav ul ul li" */ 
-    left:170px; 
-        transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, top 0.5s, left 0.5s
-
+    top: -60px;
+    /* has to be the same number as the "width" of "nav ul ul li" */
+    left: 170px;
+    transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, top 0.5s, left 0.5s
 }
 
-    
+
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
+li>a:after {
+    content: ' +';
+}
+
+li>a:only-child:after {
+    content: '';
+}
 
 
 /* Media Queries
