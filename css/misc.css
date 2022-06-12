@@ -203,8 +203,9 @@ header {
 
 .showcase-form .form-control {
     margin: 1rem 0;
-    transition: background 0.5s
+    transition: background 0.5s;
 }
+
 
 .showcase-form input[type='text'],
 .showcase-form input[type='email'] {
@@ -242,9 +243,16 @@ header {
     transition: background 0.5s
 }
 
+
+
+.drop-us-a-line-hover {
+    border-radius: 0.5rem !important;
+    transition: background 0.5s
+}
+
 .drop-us-a-line-hover:hover {
-    background: #127029;
-    border-radius: 0.5rem;
+    background: var(--secondary-colour);
+    border-radius: 0.5rem !important;
     color: #fff;
     transition: background 0.5s
 }
@@ -340,7 +348,93 @@ header {
 }
 
 
+#w-w-u:target {
+    opacity: 1;
+    background: yellow;
+    position: static;
+    z-index: 500;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+}
 
+#advertise:target {
+    opacity: 1;
+    background: yellow;
+    position: static;
+    z-index: 500;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+
+}
+
+#about:target {
+    opacity: 1;
+    background: yellow;
+    position: static;
+    z-index: 500;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+
+}
+
+
+#dropareview {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: green;
+    position: static;
+    z-index: 5000;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+}
+
+#dropareview:target {
+    opacity: 1;
+    background: green;
+    position: static;
+    z-index: 5000;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+
+}
+
+#contacter:target {
+    opacity: 1;
+    background: yellow;
+    position: static;
+    z-index: 900;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+
+
+}
+
+/*#contact:hover {
+    background: none !important;
+}*/
+
+
+/*#dropareview:target {
+    opacity: 1;
+    background: yellow;
+    position: static;
+    z-index: 500;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+
+}
+
+#dropareview:target {
+    opacity: 1;
+    background: yellow;
+    position: static;
+    z-index: 500;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s, background 0.5s, position 0.5s, z-index 0.5s, box-shadow 0.5s, transition 0.5s;
+
+}*/
 
 .social {
     text-align: center;
@@ -380,8 +474,8 @@ footer nav ul li a {
 footer nav ul li a:hover {
     border-bottom: 1px solid yellow !important;
     color: #ccc;
-    -webkit-transition: border-bottom 1s;
-    transition: border-bottom 1s;
+    -webkit-transition: border-bottom 0.5s;
+    transition: border-bottom 0.5s;
 }
 
 footer .odo .odo-h1 {
@@ -416,10 +510,10 @@ footer .odo .odo-h1:hover {
 
 ion-icon {
     color: #a69400;
-    -webkit-transition: color 1s, -webkit-transform 0.5s;
-    transition: color 1s, -webkit-transform 0.5s;
-    transition: color 1s, transform 0.5s;
-    transition: color 1s, transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transition: color 0.5s, -webkit-transform 0.5s;
+    transition: color 0.5s, -webkit-transform 0.5s;
+    transition: color 0.5s, transform 0.5s;
+    transition: color 0.5s, transform 0.5s, -webkit-transform 0.5s;
 }
 
 ion-icon:active,
@@ -608,6 +702,13 @@ p {
 
 }
 
+
+#dropareview {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
 /* Giving a background-color to the nav container. */
 nav {
     margin: 0;
@@ -617,6 +718,16 @@ nav {
     width: 100%;
     z-index: 10;
 }
+
+
+/*.toggle:check {
+    margin: 0px;
+    display: none !important;
+    float: left;
+    background-color: red;
+    transition: display 3s;
+    opacity: 0;
+}*/
 
 .footer-nav {
     background: red;
@@ -657,6 +768,8 @@ nav ul li {
     float: left;
     background-color: #127029;
 }
+
+
 
 /* Styling the links */
 nav a {

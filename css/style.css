@@ -31,11 +31,7 @@ body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-
     /*    font-weight: 00;*/
-
-
-
 }
 
 /* ----------------------------------------------- */
@@ -444,6 +440,77 @@ hemader.headjmer-mod:hover {
 
 }
 
+.date {
+    background: #3e4553 !important;
+    border-radius: 1rem;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+    margin: 0.5rem 0 !important;
+    padding: 0 0.5rem !important;
+    font-size: 1rem !important;
+    color: white;
+}
+
+
+
+em {
+    color: #fff;
+}
+
+.date a {
+    /*background: #f4f4f4 !important;*/
+    color: #fff;
+    /*border-radius: 1rem;*/
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+    padding: 5rem;
+}
+
+.date ion-icon {
+    /*background: #f4f4f4 !important;*/
+    color: #fff;
+    /*border-radius: 1rem;*/
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+}
+
+.mna {
+    background: #3e4553 !important;
+    border-radius: 1rem;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+}
+
+
+.mna a {
+    /*background: #f4f4f4 !important;*/
+    color: #fff;
+    /*border-radius: 1rem;*/
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.mna ion-icon {
+    /*background: #f4f4f4 !important;*/
+    color: #f4f4f4;
+    /*border-radius: 1rem;*/
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+}
+
 .read-more-button:hover {
     background: linear-gradient(to bottom left, #e0960e, red) !important;
     transition: background 0.5s, border 0.5s, color 0.5s, border-radius 0.5s, padding 0.5s;
@@ -478,6 +545,27 @@ a.tdn:hover {
     display: none
 }
 
+
+
+#w-w-u:target {
+    opacity: 1;
+    background: yellow;
+    transition: opacity 1s, background 1s;
+}
+
+#advertise:target {
+    opacity: 1;
+    background: yellow;
+    transition: opacity 1s, background 1s;
+
+}
+
+#drop-a-review:target {
+    opacity: 1;
+    background: yellow;
+    transition: opacity 1s, background 1s;
+
+}
 
 /* Sticky navi */
 .sticky {
@@ -633,6 +721,7 @@ bold {
     margin: 1rem;
 }
 
+
 /*FLEX*/
 
 .flex {
@@ -651,25 +740,38 @@ bold {
     flex-wrap: wrap;
     overflow: scroll;
     grid-template-columns: auto 500px !important;
-
 }
 
 .videos .grid {
     background: linear-gradient(to bottom right, #830101, #c10202) !important;
+    /* Add animation */
+    -webkit-animation-name: example;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s;
+    /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 0.5s;
 
 }
 
 .other-articles.grid {
     grid-template-columns: 1fr 1fr !important;
-    /*grid-template-rows: 100px 100px;*/
-    /*grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));*/
-
+    /* grid-template-rows: 100px 100px; */
+    /* grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); */
     font-size: 1.5rem;
     background: linear-gradient(#093514, #127029);
     overflow: hidden;
     line-height: 1.5;
     flex-wrap: wrap !important;
     word-wrap: wrap !important;
+    margin-bottom: 2.5rem !important;
+    /* Add animation */
+    -webkit-animation-name: example;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s;
+    /* Chrome, Safari, Opera */
+    /*animation-name: example;
+    animation-duration: 0.5s;*/
 }
 
 .videos-wrapper {
@@ -679,21 +781,33 @@ bold {
     flex-wrap: wrap;
     overflow: scroll;
     background: #f5f5f5;
-    /*height: 100%;*/
+    height: 200vh !important;
+    border-top: 1rem solid #127029;
+    /* Add animation */
+    -webkit-animation-name: example;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s;
+    /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 0.5s;
+    /* z-index: 2;
+ position: relative;*/
 }
 
 .articles-wrapper {
-    display: grid;
+    display: block;
     gap: 10px;
     word-wrap: wrap;
     flex-wrap: wrap;
     overflow: scroll;
     background: #e4e4e4;
-    /* height: 100vh !important; */
-    /*grid-template-rows: 200px;*/
-    /*grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));*/
-    /*margin: 1rem;*/
-    /*padding: 1rem;*/
+    height: 200vh !important;
+    border-top: 1rem solid #830101;
+
+    /* grid-template-rows: 200px; */
+    /* grid-template-rows: repeat(auto-fit, minmax(400px, 1fr)); */
+    /* margin: 1rem; */
+    /* padding: 1rem; */
 }
 
 .art-text {
@@ -755,10 +869,21 @@ p {
     padding: 1rem
 }
 
+/*:target {
+    background: red;
+    padding: 5rem !important;
+}*/
+
 .source {
     font-weight: 700;
     color: #eee !important;
-
+    /* Add animation */
+    -webkit-animation-name: example;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s;
+    /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
 }
 
 .date {
@@ -898,8 +1023,33 @@ word-spacing: 0.3rem;
     padding: 1.5rem;
 }
 
+.content-line {
+    background: red;
+    position: sticky;
+    display: none;
+    /*top: 600px*/
+}
 
+/*.art-label-wrapper>div*/
 
+/*:nth-child(1)*/
+    {
+    display: block;
+    height: 1rem;
+    background-color:
+        /*yellow*/
+        var(--dark-colour);
+    content: " ";
+    margin: 0 4.2rem;
+    margin-left: 1rem;
+    /*margin-top: 2rem;*/
+    position: sticky;
+    top: 0;
+    /*left: 33px;
+bottom: 33px;*/
+    /*z-index: 1 !important;*/
+    border-radius: 2rem 2rem 0 0;
+}
 
 /*BOX_SHADOWS*/
 .bs {
@@ -937,20 +1087,34 @@ word-spacing: 0.3rem;
 
 
 
+video {
+    background: red;
 
+}
 
 
 .video-utility {
-    background: linear-gradient(#127029, #093514);
+    /*background: linear-gradient(#127029, #093514);*/
     width: 90%;
     /*margin: 0;*/
-
+    background: #127029;
 }
 
 .video-box {
     /* margin: 0 -6rem !important; */
     padding: 0 !important;
+    position: relative;
+    text-align: center;
     /*width: 100%;*/
+}
+
+.bottom {
+    position: absolute;
+    bottom: 55%;
+    left: 8%;
+    background: red !important;
+    font-size: 2rem;
+    word-wrap: wrap;
 }
 
 /*/*--FOOTER--
@@ -1719,7 +1883,7 @@ nav ul li {
 /* Styling the links */
 nav a {
     display: block;
-    padding: 14px 20px;
+    padding: 14px 18px;
     color: #FFF;
     font-size: 17px;
     text-decoration: none;

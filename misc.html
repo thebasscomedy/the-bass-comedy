@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/misc.css">
     <link rel="stylesheet" type="text/css" href="css/misc-queries.css">
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="css/r.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/r.css"> -->
+    <link rel="stylesheet" type="text/css" href="js/script.js">
     <link rel="preconnect" href="css/https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
@@ -44,21 +45,23 @@
             <label for="drop" class="toggle">Menu</label>
             <input type="checkbox" id="drop" />
             <ul class="menu">
-                <li class="marg"><a href="#">Contact Us</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Work With Us😍</a></li>
-                <li><a href="#">Drop a Review</a></li>
+                <li><a href="index.html">⬅Home.</a></li>
+                <li><a href="#contacter">Contact Us</a></li>
+                <li><a href="articles.html">Blog</a></li>
+                <li><a href="#advertise">Advertise</a></li>
+                <li><a href="#w-w-u">Work With Us😍</a></li>
+                <li><a href="#contacter">Drop a Review</a></li>
             </ul>
         </nav>
     </div>
     <section class="misc">
         <div class="misc-container">
-            <div class="about-us first" id="about-us">
+            <div class="about-us first" id="about">
                 <div class="about-us-head flex about-us-head-before">about us. <div class="space">&nbsp;</div>
                 </div>
                 <div class="content">some contents here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae et eveniet in doloribus optio. Vel officiis incidunt quis quo, nisi molestiae impedit a pariatur possimus maxime eius quae distinctio porro.</div>
             </div>
-            <div class="about-us">
+            <div class="about-us" id="contacter">
                 <div class="about-us-head flex about-us-head-before">contact us. <div class="space">&nbsp;</div>
                 </div>
                 <div class="content">some contents here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae et eveniet in doloribus optio. Vel officiis incidunt quis quo, nisi molestiae impedit a pariatur possimus maxime eius quae distinctio porro.</div>
@@ -124,7 +127,7 @@
                 </div>
             </div>
             <div class="about-us">
-                <div class="about-us-head flex about-us-head-before" id="drop-a-review">writers' profiles.<div class="space">&nbsp;</div>
+                <div class="about-us-head flex about-us-head-before">writers' profiles.<div class="space">&nbsp;</div>
                 </div>
                 <div class="content">some contents here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aspernatur perspiciatis quam facere provident quod quae ratione aperiam ab libero, explicabo blanditiis quas beatae voluptatem voluptatibus cupiditate iure! Consectetur, optio.</div>
             </div>
@@ -141,15 +144,15 @@
             </div>
             <nav class="footer-nav">
                 <ul class="remove-bullet-points footer-ul">
-                    <li class="tdn"><a class="tdn" href="#nav">Back to Top.</a></li>
-                    <li class="tdn"><a class="tdn" href="#nav">About us.</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Contact Us.</a></li>
-                    <li class="tdn"><a class="tdn" href="#">Work With Us😍!.</a></li>
-                    <li class="tdn"><a class="tdn" href="#">Ads Management.</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Drop a Review.</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Version 1.0.2 (Alpha Mate (beta)).</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">View Version Log +</a></li>
-                    <li class="tdn"><a class="tdn" href="indextwo.html">Changes.</a></li>
+                    <li class="tdn"><a class="tdn" href="index.html">⬅Home.</a></li>
+                    <li class="tdn"><a class="tdn" href="#about">About us.</a></li>
+                    <li class="tdn"><a class="tdn" href="#contacter">Contact Us.</a></li>
+                    <li class="tdn"><a class="tdn" href="#w-w-u">Work With Us😍!.</a></li>
+                    <li class="tdn"><a class="tdn" href="#advertise">Ads Management.</a></li>
+                    <li class="tdn"><a class="tdn" href="#contacter">Drop a Review.</a></li>
+                    <li class="tdn"><a class="tdn" href="#version" id="version">Version 1.0.2 (Alpha Mate (beta)).</a></li>
+                    <li class="tdn"><a class="tdn" href="#version" id="version">View Version Log +</a></li>
+                    <li class="tdn"><a class="tdn" href="#version" id="version">Changes.</a></li>
                 </ul>
             </nav>
             <div class="social fs-l tdn">
@@ -187,6 +190,15 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jqueryn.waypoints.min.js"></script>
+    <script src="js/scripjt.js"></script>
+    <!-- <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script> -->
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
