@@ -95,6 +95,18 @@ header {
     display: block
 }
 
+.contact-us-highlight {
+    background: var(--red-colour);
+
+}
+
+.contact-us-highlight-footer {
+    color: #fff;
+    border: 0.2rem solid var(--red-colour);
+
+
+}
+
 /* .misc {
     /* displamy: grid;
     babckground: red; 
@@ -293,9 +305,9 @@ header {
 
 .website-author {
     padding: 1.2rem;
-    margin: 1rem;
+    margin: 1rem !important;
     text-align: center;
-    width: 100%
+    width: auto !important
 }
 
 
@@ -308,7 +320,7 @@ header {
 
 .author-paragraph {
     font-size: 1.2rem;
-    text-align: center
+    text-align: center;
 }
 
 .grid-footer {
@@ -551,7 +563,6 @@ ion-icon:hover {
 }
 
 .footer-nav {
-    background: ;
     text-align: center;
     justify-content: center;
     font-size: 1rem
@@ -570,7 +581,7 @@ ion-icon:hover {
     color#f4f444;
     padding: 0;
     margin: 0;
-    display: inline-flex;
+    /*display: inline-flex;*/
     align-self: center;
     justify-content: center;
 
@@ -719,6 +730,9 @@ nav {
     z-index: 10;
 }
 
+li.tdn {
+    background: red;
+}
 
 /*.toggle:check {
     margin: 0px;

@@ -334,7 +334,13 @@
         column-gap: 1.9rem;
         margin: 1rem !important;
         row-gap: 1rem;
+        /*font-size: 0.1rem;*/
     }
+
+    .prof-art-details h4 {
+        font-size: 0.9rem;
+    }
+
 
     #flexy {
         display: none;

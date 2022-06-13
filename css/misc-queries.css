@@ -374,7 +374,7 @@ flex-wrap: wruap;
     .toggle {
         display: block;
         background-color: #254441;
-        padding: 14px 20px;
+        padding: 0 1rem;
         color: #FFF;
         font-size: 17px;
         text-decoration: none;

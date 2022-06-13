@@ -1891,6 +1891,20 @@ nav a {
 
 }
 
+.contact-us-highlight {
+    background: var(--red-colour);
+
+}
+
+.contact-us-highlight-footer {
+    color: #fff;
+    border: 0.2rem solid var(--red-colour);
+
+
+}
+
+
+
 
 nav ul li ul li:hover {
     background: #21c74a !important;
