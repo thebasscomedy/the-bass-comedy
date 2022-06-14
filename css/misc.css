@@ -869,3 +869,7 @@ li>a:only-child:after {
     }
 
 }*/
+
+
+.content-remaining-space {
+    background: blue !important;

@@ -1967,3 +1967,96 @@ li>a:only-child:after {
 .comedy-house-space {
     display: none
 }
+
+
+/*.sectinon1 {
+    position: relative;
+    height: 600px;
+    background: #F1F5F8;
+    padding: 10px 0px;
+    width: 100%;
+}*/
+
+
+.sticky-social {
+    position: fixed;
+
+    top: 250px;
+    /*left: 1px;*/
+    padding: 0px;
+    margin: 0px;
+    z-index: 90000;
+    color: #000;
+}
+
+.social {
+    list-style: none;
+    /*color: var(--red-colour) !important;*/
+}
+
+.social li {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0 !important;
+    font-size: 2.5rem;
+    transition: all 1s ease-in-out;
+    color: #000;
+    background: #ccc;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    transition: background 1s;
+
+
+
+
+
+
+}
+
+.social li:hover {
+    /*margin-right: -30px;*/
+    box-shadow: 2px 5px 10px grey;
+    background: linear-gradient(black, var(--dark-colour));
+    transition: all 1s ease-in-out;
+
+    transition: background 1s;
+}
+
+/*.social li:hover*/
+.fa {
+    /*margin-left: 20px;*/
+    /*background: #000;*/
+
+}
+
+.fa {
+    color: #fff;
+    transition: all 0.8s ease-in-out;
+    /*background: #000;*/
+    border-radius: 1rem;
+    /*padding: 0.3rem;*/
+}
+
+.fb i {
+    color: #3C5A98;
+
+}
+
+.twitter i {
+    color: #1EA1F2;
+}
+
+.insta i {
+    color: #DC4F42;
+}
+
+.whatsapp i {
+    color: #24822e;
+}
+
+/*.vim i {
+    color: #4FCE5D;
+}*/
+
+.powr-comments {
+    top: 370px;
+}
