@@ -3,15 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="css/articles.css">
     <link rel="stylesheet" type="text/css" href="css/articles-queries.css">
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="js/script.js">
     <!--     <link rel="stylesheet" type="text/css" href="css/r.css">-->
     <link rel="preconnect" href="css/https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,10 +42,13 @@
         <section class="article-container">
             <div>
                 <div class="art-img">
-                    <img src="css/kuCx6.jpg" alt="ttt" class="prof-img">
+                    <img src="css/kuCx6.jpg" alt="ttt" class="">
                 </div>
                 <div class="prof-art-details">
-                    <h4>
+                    <h4 id="pro-pic">
+                        <div class="pro-div"><img class="prof-img" src="css/kuCx6.jpg"></div>
+                    </h4>
+                    <h4 class="prof-details">
                         <ion-icon name="person-circle-outline"></ion-icon>chris banner
                     </h4>
                     <h4 class="iony">
@@ -119,9 +124,6 @@
             </div>
         </section>
     </div>
-    <section>
-        <div class="powr-comments" id="e974a516_1655206692"></div>
-    </section>
     <!--FOOTER-->
     <footer class="footer">
         <div class="container grid-footer grid-3">
@@ -142,9 +144,9 @@
                     <li class="tdn"><a class="tdn" href="misc.html#w-w-u" target="_blank">Work With Us😍!.</a></li>
                     <li class="tdn"><a class="tdn" href="misc.html#advertise" target="_blank">Ads Management.</a></li>
                     <li class="tdn"><a class="tdn" href="misc.html#contacter" target="_blank">Drop a Review.</a></li>
-                    <li class="tdn"><a class="tdn" href="#">Version 1.0.2 (Alpha Mate (beta)).</a></li>
-                    <li class="tdn"><a class="tdn" href="#">View Version Log +</a></li>
-                    <li class="tdn"><a class="tdn" href="#">Changes.</a></li>
+                    <li class="tdn disabled"><a class="tdn disabled" href="#version" id="version">Version 1.0.2 (Alpha Mate (beta)).</a></li>
+                    <li class="tdn disabled"><a class="tdn disabled" href="#version" id="version">View Version Log +</a></li>
+                    <li class="tdn disabled"><a class="tdn disabled" href="#version" id="version">Changes.</a></li>
                     <li class="tdn"><a class="tdn" href="#">Call us Now.</a></li>
                 </ul>
             </nav>
@@ -170,7 +172,15 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://www.powr.io/powr.js?platform=html"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jqueryn.waypoints.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script> -->
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
