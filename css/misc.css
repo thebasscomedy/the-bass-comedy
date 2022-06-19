@@ -466,6 +466,7 @@ header {
 }
 
 
+
 .social {
     text-align: center;
     padding: 0.5rem 0;
@@ -576,6 +577,12 @@ ion-icon:hover {
     -ms-flex-pack: center;
     justify-content: center;
     gap: 20px;
+}
+
+
+.hidden {
+    visibility: hidden;
+    height: 0;
 }
 
 
