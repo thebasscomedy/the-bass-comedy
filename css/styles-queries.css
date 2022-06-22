@@ -186,23 +186,6 @@
          margin-top: 2rem;
      }
 
-     /*.after:after {
-    display: none;
-    background-color: var(--red-colour);
-    content: "view more skits😁";
-    text-transform: uppercase;
-    border-radius: 1rem;
-    border: 1px solid #B51C20;
-    justify-content: center;
-    color: aliceblue;
-    padding: 0.8rem 1rem !important;
-    margin: 1rem 5rem;
-    white-space: nowrap;
-    font-size: 1.1rem;
-    top: 10rem;
-    left: 3rem;
-}*/
-
      .art-label-wrapper-mobile {
          display: none;
          margin: 1rem !important;
@@ -242,30 +225,6 @@
      }
 
 
-     /*.art-label.flex {
-    flex-direction: column;
-    display: none;
-    background: red !important;
-}*/
-
-
-
-     /*.after:after {
-    display: none;
-    background-color: var(--red-colour);
-    content: "view more skits😁";
-    text-transform: uppercase;
-    border-radius: 1rem;
-    border: 1px solid #B51C20;
-    justify-content: center;
-    color: aliceblue;
-    padding: 0.8rem 1rem !important;
-    margin: 1rem 9.9rem !important;
-    white-space: nowrap;
-    font-size: 1.1rem;
-    top: 10rem;
-    left: 3rem;
-}*/
 
 
 
@@ -586,7 +545,7 @@
          margin-top: 2rem;
      }
 
-     .after:after {
+     /*.after:after {
          display: inline-block;
          background-color: var(--red-colour);
          content: "view more skits😁";
@@ -601,7 +560,7 @@
          font-size: 1.1rem;
          top: 10rem;
          left: 3rem;
-     }
+     }*/
 
 
      .card.video-utility {
@@ -679,30 +638,7 @@ margin: 1rem !important;*/
      }
 
 
-     /*.art-label.flex {
-    flex-direction: column;
-    display: none;
-    background: red !important;
-}*/
-
-
-
-     /*.after:after {
-    display: none;
-    background-color: var(--red-colour);
-    content: "view more skits😁";
-    text-transform: uppercase;
-    border-radius: 1rem;
-    border: 1px solid #B51C20;
-    justify-content: center;
-    color: aliceblue;
-    padding: 0.8rem 1rem !important;
-    margin: 1rem 9.9rem !important;
-    white-space: nowrap;
-    font-size: 1.1rem;
-    top: 10rem;
-    left: 3rem;
-}*/
+   
 
 
 
@@ -1037,22 +973,7 @@ margin: 1rem !important;*/
          margin-top: 2rem;
      }
 
-     .after:after {
-         display: inline-block;
-         background-color: var(--red-colour);
-         content: "view more skits😁";
-         text-transform: uppercase;
-         border-radius: 1rem;
-         border: 1px solid #B51C20;
-         justify-content: center;
-         color: aliceblue;
-         padding: 0.8rem 1rem !important;
-         margin: 1rem 5rem;
-         white-space: nowrap;
-         font-size: 1.1rem;
-         top: 10rem;
-         left: 3rem;
-     }
+   
 
      .card.video-utility {
          /*width: 95% !important;
@@ -1105,30 +1026,7 @@ margin: 1rem !important;*/
      }
 
 
-     /*.art-label.flex {
-    flex-direction: column;
-    display: none;
-    background: red !important;
-}*/
-
-
-
-     /*.after:after {
-    display: none;
-    background-color: var(--red-colour);
-    content: "view more skits😁";
-    text-transform: uppercase;
-    border-radius: 1rem;
-    border: 1px solid #B51C20;
-    justify-content: center;
-    color: aliceblue;
-    padding: 0.8rem 1rem !important;
-    margin: 1rem 9.9rem !important;
-    white-space: nowrap;
-    font-size: 1.1rem;
-    top: 10rem;
-    left: 3rem;
-}*/
+     
 
 
 
