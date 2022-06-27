@@ -638,7 +638,7 @@ margin: 1rem !important;*/
      }
 
 
-   
+
 
 
 
@@ -953,7 +953,7 @@ margin: 1rem !important;*/
 
      button:not(.annoying) {
          margin: 1rem !important;
-         margin-top: 10rem !important;
+         /*margin-top: 10rem !important;*/
      }
 
      .annoying {
@@ -973,7 +973,7 @@ margin: 1rem !important;*/
          margin-top: 2rem;
      }
 
-   
+
 
      .card.video-utility {
          /*width: 95% !important;
@@ -1026,7 +1026,7 @@ margin: 1rem !important;*/
      }
 
 
-     
+
 
 
 
