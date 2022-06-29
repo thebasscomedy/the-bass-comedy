@@ -668,7 +668,7 @@ header.header-mod {
 
 
 .herotextbox {
-    /*position: absolute;*/
+    position: absolute;
     width: 1140px;
     top: 50%;
     left: 50%;
