@@ -668,7 +668,7 @@ header.header-mod {
 
 
 .herotextbox {
-    position: absolute;
+    /*position: absolute;*/
     width: 1140px;
     top: 50%;
     left: 50%;
@@ -862,9 +862,24 @@ em {
     padding: 5rem;
 }
 
+.card.mod {
+    padding: 1rem;
+    margin: 1rem !important;
+}
 
+.youtube-caller {
+    font-size: 2rem;
+    color: #333;
+}
 
+.youtube-caller a {
+    color: #333;
+    text-decoration-color: var(--red-colour);
+}
 
+.youtube-caller a:hover {
+    text-decoration-line: none;
+}
 
 
 .date ion-icon {
