@@ -951,10 +951,9 @@ margin: 1rem !important;*/
          height: 13vh !important;
      }
 
-
      button:not(.annoying) {
          margin: 1rem !important;
-         margin-top: 10rem !important;
+         /*margin-top: 10rem !important;*/
      }
 
      .annoying {
