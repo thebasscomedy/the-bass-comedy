@@ -165,6 +165,8 @@
          padding: 1rem !important;
          margin-top: 1rem !important;
          height: 13vh !important;
+         line-height: 100px;
+
      }
 
 
@@ -367,7 +369,15 @@
      }
 
 
-
+     .sticky-social {
+         /*position: fixed;*/
+         top: 180px !important;
+         /* left: 1px; */
+         /* padding: 0px;
+    margin: 0px;
+    z-index: 90000;
+    color: #000;*/
+     }
 
      /*.other-articles.card.grid.art-grid {}*/
 
@@ -520,6 +530,8 @@
          color: var(--primary-colour);
          width: 100%;
          text-align: start;
+         line-height: 50px;
+
          font-size: 2.0rem !important;
          padding: 1rem !important;
          margin-top: 1rem !important;
@@ -779,6 +791,16 @@ margin: 1rem !important;*/
      }
 
 
+     .sticky-social {
+         /*position: fixed;*/
+         top: 180px !important;
+         /* left: 1px; */
+         /* padding: 0px;
+    margin: 0px;
+    z-index: 90000;
+    color: #000;*/
+     }
+
 
 
      /*.other-articles.card.grid.art-grid {}*/
@@ -944,6 +966,8 @@ margin: 1rem !important;*/
      .herotextbox h1 {
          color: var(--primary-colour);
          width: 100%;
+         line-height: 25px;
+
          text-align: start;
          font-size: 2.0rem !important;
          padding: 1rem !important;
@@ -952,12 +976,22 @@ margin: 1rem !important;*/
      }
 
      button:not(.annoying) {
-         margin: 1rem !important;
+         /*margin: 1rem !important;*/
          /*margin-top: 10rem !important;*/
      }
 
      .annoying {
          margin-top: -6rem !important;
+     }
+
+     .sticky-social {
+         /*position: fixed;*/
+         top: 180px !important;
+         /* left: 1px; */
+         /* padding: 0px;
+    margin: 0px;
+    z-index: 90000;
+    color: #000;*/
      }
 
      .art-label-wrapper {
