@@ -869,8 +869,9 @@ em {
 }
 
 .youtube-caller {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #333;
+    text-transform: uppercase;
 }
 
 .youtube-caller a {
@@ -1377,6 +1378,8 @@ bold {
     /* Chrome, Safari, Opera */
     /*animation-name: example;
     animation-duration: 0.5s;*/
+    opacity: 0.35;
+
 }
 
 

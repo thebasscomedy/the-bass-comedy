@@ -1,3 +1,5 @@
+document.cookie = 'dark_mode=false; Secure; HttpOnly';
+
 $(document).ready(function() {
 
     $('h3').click(function() {
