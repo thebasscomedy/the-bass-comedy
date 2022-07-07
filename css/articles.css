@@ -702,10 +702,8 @@ ion-icon:hover {
     font-size: 1.5rem !important;
 }
 
-/* CSS Document */
 
-/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);*/
+/*NAV*/
 
 body {
     background: #212121;
@@ -786,8 +784,7 @@ nav {
     line-height: 60px;
 }
 
-/* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
+
 
 nav:after {
     content: "";
@@ -795,8 +792,6 @@ nav:after {
     clear: both;
 }
 
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
 
 nav ul {
     float: right;
@@ -839,8 +834,7 @@ nav a:hover {
     transition: background 0.5s, background-color 0.5s
 }
 
-/* Hide Dropdowns by Default
- * and giving it a position of absolute */
+
 
 nav ul ul {
     display: none;
@@ -867,10 +861,7 @@ nav ul ul li {
     transition: width 0.5s, float 0.5s, display 0.5, position 0.5s;
 }
 
-/* Second, Third and more Tiers 
- * We move the 2nd and 3rd etc tier dropdowns to the left
- * by the amount of the width of the first tier.
-*/
+
 
 nav ul ul ul li {
     position: relative;

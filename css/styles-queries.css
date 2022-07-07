@@ -1214,8 +1214,7 @@ margin: 1rem !important;*/
      }
 
 
-     /* Hide the navigation menu by default */
-     /* Also hide the  */
+
      .toggle+a,
      .menu {
          display: none;
@@ -1242,7 +1241,6 @@ margin: 1rem !important;*/
 
      }
 
-     /* Display Dropdown when clicked on Parent Lable */
      [id^=drop]:checked+ul {
          display: block;
          transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
@@ -1295,17 +1293,14 @@ margin: 1rem !important;*/
 
      }
 
-     /* Hide Dropdowns by Default */
      nav ul ul {
          float: none;
          position: static;
          color: #ffffff;
          transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
 
-         /* has to be the same number as the "line-height" of "nav a" */
      }
 
-     /* Hide menus on hover */
      nav ul ul li:hover>ul,
      nav ul li:hover>ul {
          display: none;
@@ -1313,7 +1308,6 @@ margin: 1rem !important;*/
 
      }
 
-     /* Fisrt Tier Dropdown */
      nav ul ul li {
          display: block;
          width: 100%;
@@ -1325,7 +1319,6 @@ margin: 1rem !important;*/
          position: static;
          transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, padding 0.5s, text-align 0.5s, margin 0.5s;
 
-         /* has to be the same number as the "width" of "nav ul ul li" */
 
      }
 

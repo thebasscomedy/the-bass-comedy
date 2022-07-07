@@ -688,11 +688,9 @@ ion-icon:hover {
 }
 
 
-/* CSS Document */
 
 
-/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);*/
+/*NAV*/
 
 
 body {
@@ -766,7 +764,6 @@ p {
 }
 
 
-/* Giving a background-color to the nav container. */
 
 
 nav {
@@ -809,8 +806,7 @@ li.tdn {
 }
 
 
-/* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
+/* . */
 
 
 nav:after {
@@ -820,8 +816,6 @@ nav:after {
 }
 
 
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
 
 
 nav ul {
@@ -833,7 +827,6 @@ nav ul {
 }
 
 
-/* Positioning the navigation items inline */
 
 
 nav ul li {
@@ -844,7 +837,6 @@ nav ul li {
 }
 
 
-/* Styling the links */
 
 
 nav a {
@@ -864,7 +856,6 @@ nav ul li ul li:hover {
 }
 
 
-/* Background color change on Hover */
 
 
 nav a:hover {
@@ -873,8 +864,7 @@ nav a:hover {
 }
 
 
-/* Hide Dropdowns by Default
- * and giving it a position of absolute */
+/*  */
 
 
 nav ul ul {
@@ -907,22 +897,18 @@ nav ul ul li {
 }
 
 
-/* Second, Third and more Tiers 
- * We move the 2nd and 3rd etc tier dropdowns to the left
- * by the amount of the width of the first tier.
+/* 
 */
 
 
 nav ul ul ul li {
     position: relative;
     top: -60px;
-    /* has to be the same number as the "width" of "nav ul ul li" */
     left: 170px;
     transition: width 0.5s, float 0.5s, display 0.5, position 0.5s, top 0.5s, left 0.5s
 }
 
 
-/* Change ' +' in order to change the Dropdown symbol */
 
 
 li>a:after {
